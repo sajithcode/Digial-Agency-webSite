@@ -411,3 +411,26 @@ Footer Section------------------*/
     padding: 5px 20px;
     
 }
+
+@media screen and (max-width:768px){
+    
+    .service-desc{
+        margin-top: 40px;
+        width: 100%;
+        font-size: 1.2rem;
+    }
+
+    .pricing-p{
+        width: 100%;
+        font-size: 1.2rem;
+        
+        margin: 30px auto;
+    }
+
+    .top-contact-us-p{
+        font-size: 1.0rem;
+        width: 100%;
+        margin: 40px auto;
+    }
+    
+}
