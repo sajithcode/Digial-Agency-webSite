@@ -208,7 +208,7 @@ Service Section---------*/
 }
 
 .service-section2-col{
-    padding-top: 100px;
+    padding-top: 60px;
 }
 
 .service-card{
@@ -224,6 +224,10 @@ Service Section---------*/
     font-size: 3.5rem;
     color: #FAF3F8;
     -webkit-text-stroke: 1px #AF90EA;
+}
+
+.marketing-img{
+    padding-top: 30px;
 }
 
 
