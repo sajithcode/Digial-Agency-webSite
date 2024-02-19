@@ -68,10 +68,32 @@ Navbar Section-------------------*/
 Hero Section----------------------*/
 
 #hero-section{
+    
     font-family: "Plus Jakarta Sans", sans-serif;
     padding: 7% 10%;
     background: rgb(254,243,249);
     background: linear-gradient(90deg, rgba(254,243,249,1) 0%, rgba(254,244,249,1) 0%, rgba(249,242,248,1) 100%);
+    overflow: hidden;
+}
+
+.row-items{
+    position: relative;
+    z-index: 2;
+}
+
+.background-position{
+    position: relative;
+    z-index: 2;
+}
+
+.right-background{
+    width: 70%;
+    right: 0px;
+    top: 200px;
+    bottom: 0;
+    position: absolute;
+    z-index: 1;
+   
 }
 
 .hero-1{
@@ -106,6 +128,7 @@ Hero Section----------------------*/
     padding: 5px 20px;
 }
 
+
 .btn-hero-2{
     margin-right: 20px;
     margin-left: 20px;
@@ -123,6 +146,8 @@ Hero Section----------------------*/
 Service Section---------*/
 
 #service-section{
+    position: relative;
+    z-index: 4;
     font-family: "Plus Jakarta Sans", sans-serif;
     padding: 7% 10%;
     
